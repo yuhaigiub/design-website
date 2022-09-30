@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     background-color: chartreuse;
-    height:10%;
+    height:15%;
     width:100%;
     box-sizing: border-box;
     padding-left: 5%;
@@ -83,5 +83,10 @@
 
     .services-content-box a {
         margin: 2% 8%;
+    }
+
+    .services-content-box .box-price {
+        height:10%;
+
     }
 }
