@@ -71,5 +71,17 @@
         margin: 0;
         margin-bottom: 5%;
     }
-    
+
+    .services-content-box h3 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .services-content-box .box-content {
+        margin: 0 8%;
+    }
+
+    .services-content-box a {
+        margin: 2% 8%;
+    }
 }
