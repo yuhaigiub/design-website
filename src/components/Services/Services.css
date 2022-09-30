@@ -12,16 +12,49 @@
 }
 
 .services-content-box {
+    position: relative;
     background-color: #FFFFFF;
     color: black;
     width: 480px;
     height: 480px;
     margin-bottom: 8%;
     text-align: center;
-    padding: 1% 1% 5% 1%;
+    padding: 4% 0 5% 0;
     box-sizing: border-box;
-
 }
+
+.services-content-box h3 {
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+.services-content-box .box-content {
+    margin: 0 10%;
+    text-align: justify;
+}
+.services-content-box a {
+    display: block;
+    text-align: left;
+    margin: 3% 10%;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.services-content-box .box-price {
+    text-align: left;
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+    height:10%;
+    width:100%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    color:blue;
+    font-weight: 500;
+}
+
 
 @media screen and (max-width:450px) {
     .services-flexbox-container {
