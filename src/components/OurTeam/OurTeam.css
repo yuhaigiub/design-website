@@ -1,0 +1,33 @@
+.contact-flexbox-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-image {
+    width :25%;
+    height:auto;
+    object-fit: cover;
+}
+
+#contact-content {
+    color:#BABABA;
+    width:90%;
+    font-size: 2rem;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+@media screen and (max-width:450px) {
+    .contact-image {
+        width: 100%;
+        height: auto;
+        object-fit:contain;
+        margin: 0;
+    }
+    
+    #contact-content {
+        font-size: 1rem;
+    }
+}

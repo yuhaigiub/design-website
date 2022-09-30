@@ -1,0 +1,16 @@
+#home-content {
+    color:#BABABA;
+    text-align: center;
+    font-size: 2rem;
+    width:90%;
+    margin:auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+@media screen and (max-width:450px) {
+    #home-content {
+        font-size: 1rem;
+    }
+    
+}

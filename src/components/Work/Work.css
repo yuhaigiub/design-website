@@ -1,0 +1,16 @@
+.work-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-image img {
+    width: 50%;
+}
+
+@media screen and (max-width:450px) {
+    .work-image img {
+        width: 100%;
+    }
+    
+}

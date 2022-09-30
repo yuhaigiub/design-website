@@ -1,0 +1,42 @@
+.services {
+    padding: 0;
+    margin: 0;
+}
+
+.services-flexbox-container {
+    display: flex;
+    margin:auto;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-content-box {
+    background-color: #FFFFFF;
+    color: black;
+    width: 480px;
+    height: 480px;
+    margin-bottom: 8%;
+    text-align: center;
+    padding: 1% 1% 5% 1%;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width:450px) {
+    .services-flexbox-container {
+        width: 80%;
+        flex-direction: column;
+        font-size: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-content-box {
+        width: 100%;
+        height: 80vw;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+    
+}
