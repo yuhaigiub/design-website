@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
 .services {
     padding: 0;
     margin: 0;
@@ -24,11 +26,13 @@
 }
 
 .services-content-box h3 {
+    font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
     font-weight: 1000;
 }
 
 .services-content-box .box-content {
+    font-family: 'Roboto Light', sans-serif;
     margin: 0 10%;
     text-align: justify;
 }
@@ -41,6 +45,7 @@
 }
 
 .services-content-box .box-price {
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     position:absolute;
     bottom: 0;
