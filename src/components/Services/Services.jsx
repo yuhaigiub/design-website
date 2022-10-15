@@ -19,15 +19,38 @@ const ContentBox = ({ header, content, link, price }) => {
 
 const Services = () => {
 	return (
-		<div className="services">
-			<h2>Services</h2>
-			<div className="services-flexbox-container">
-				<ContentBox header="Graphic Design" content={content} link="#" price={350} />
-				<ContentBox header="Product Design" content={content} link="#" price={400} />
-				<ContentBox header="Web Design" content={content} link="#" price={500} />
-				<ContentBox header="Video Editing" content={content} link="#" price={450} />
+		<>
+			<div id="services"></div>
+			<div className="services">
+				<h2>Services</h2>
+				<div className="services-flexbox-container">
+					<ContentBox
+						header="Graphic Design"
+						content={content}
+						link="#"
+						price={350}
+					/>
+					<ContentBox
+						header="Product Design"
+						content={content}
+						link="#"
+						price={400}
+					/>
+					<ContentBox
+						header="Web Design"
+						content={content}
+						link="#"
+						price={500}
+					/>
+					<ContentBox
+						header="Video Editing"
+						content={content}
+						link="#"
+						price={450}
+					/>
+				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

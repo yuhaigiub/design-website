@@ -1,14 +1,15 @@
 #home-content {
-    color:#BABABA;
-    text-align: center;
-    font-size: 2rem;
-    width:90%;
-    margin:auto;
-    margin-top: 5%;
-    margin-bottom: 10%;
+	color: #bababa;
+	text-align: center;
+	font-size: 2rem;
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
 
-@media screen and (max-width:450px) {
+
+@media screen and (max-width:640px) {
     #home-content {
         font-size: 1rem;
     }

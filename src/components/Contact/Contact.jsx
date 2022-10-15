@@ -13,6 +13,7 @@ const contactWebsites = [
 const Contact = () => {
 	return (
 		<>
+			<div id="contact"></div>
 			<h2>Contact</h2>
 			<div id="contact-website">contact@website.com</div>
 			<div id="contact-phone">+0 0000 0000</div>

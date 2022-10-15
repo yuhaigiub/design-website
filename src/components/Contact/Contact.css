@@ -1,29 +1,35 @@
-#contact-website, #contact-phone {
-    font-size: 3.5rem;
-    text-align: center;
+#contact-website,
+#contact-phone {
+	font-size: 3rem;
+	text-align: center;
 }
 
 #contact-social {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 #contact-social a {
-    margin: 10% 0;
-    text-decoration: none;
-    font-size: 2rem;
-    color:#BABABA;
-    padding: 0 2%;
-    margin-bottom: 10%;
+	margin: 10% 0;
+	text-decoration: none;
+	font-size: 2rem;
+	color: #bababa;
+	padding: 0 2%;
+	margin-bottom: 10%;
 }
 
-@media screen and (max-width:450px) {
-    #contact-website, #contact-phone {
-        font-size: 1rem;
-    }
-    
-    #contact-social a {
-        font-size: 0.5rem;
-        margin-bottom: 12%;
-    }
+@media screen and (max-width: 640px) {
+	#contact-website,
+	#contact-phone {
+		font-size: 1.5rem;
+	}
+
+	#contact-social {
+		flex-wrap: wrap;
+	}
+
+	#contact-social a {
+		font-size: 0.75rem;
+		margin-bottom: 12%;
+	}
 }

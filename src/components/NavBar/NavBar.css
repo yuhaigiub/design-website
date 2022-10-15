@@ -1,0 +1,28 @@
+#navbar-container {
+	margin: 0;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	z-index: 1000;
+}
+
+#navbar-container a {
+	font-family: "Roboto";
+	font-size: 2rem;
+	box-sizing: border-box;
+	padding: 2%;
+	margin: 0 2%;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+	#navbar-container a {
+		font-size: 1rem;
+		padding: 2% 1%;
+		margin: 2%;
+	}
+}

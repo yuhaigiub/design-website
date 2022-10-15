@@ -9,6 +9,7 @@ const arr = [1, 2, 3, 4];
 const OurTeam = () => {
 	return (
 		<>
+			<div id="our-team"></div>
 			<h2>Our Team</h2>
 			<div id="contact-content">{content}</div>
 			<div className="contact-flexbox-container">
