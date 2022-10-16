@@ -1,6 +1,6 @@
 #contact-website,
 #contact-phone {
-	font-size: 3rem;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -12,16 +12,17 @@
 #contact-social a {
 	margin: 10% 0;
 	text-decoration: none;
-	font-size: 2rem;
+	box-sizing: border-box;
+	font-size: 2em;
 	color: #bababa;
 	padding: 0 2%;
 	margin-bottom: 10%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
 	#contact-website,
 	#contact-phone {
-		font-size: 1.5rem;
+		font-size: 1.5em;
 	}
 
 	#contact-social {
@@ -29,7 +30,7 @@
 	}
 
 	#contact-social a {
-		font-size: 0.75rem;
+		font-size: 1em;
 		margin-bottom: 12%;
 	}
 }

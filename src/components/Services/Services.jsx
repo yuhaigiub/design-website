@@ -7,11 +7,13 @@ const content =
 const ContentBox = ({ header, content, link, price }) => {
 	return (
 		<div className="services-content-box">
-			<h3>{header}</h3>
-			<div class="box-content">{content}</div>
-			<a class="box-link" href={link}>
-				See more
-			</a>
+			<div className="box-content">
+				<h3>{header}</h3>
+				<div class="content">{content}</div>
+				<a class="link" href={link}>
+					See more
+				</a>
+			</div>
 			<div class="box-price">Starting at ${price}</div>
 		</div>
 	);
@@ -23,7 +25,7 @@ const Services = () => {
 			<div id="services"></div>
 			<div className="services">
 				<h2>Services</h2>
-				<div className="services-flexbox-container">
+				<div className="services-grid-container">
 					<ContentBox
 						header="Graphic Design"
 						content={content}

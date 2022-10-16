@@ -1,16 +1,17 @@
 .work-image {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .work-image img {
-    width: 50%;
+	width: 50%;
 }
 
-/* @media screen and (max-width:450px) {
-    .work-image img {
-        width: 100%;
-    }
-    
-} */
+
+
+@media screen and (max-width: 768px) {
+	.work-image img {
+		width: 100%;
+	}
+}

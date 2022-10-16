@@ -1,76 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
 
-.services-flexbox-container {
+.services-grid-container {
+	margin-top: 5%;
 	display: flex;
-	margin: auto;
-	width: 70%;
+	gap: 15%;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .services-content-box {
 	width: 25vw;
-	height: 25vw;
-	position: relative;
-	background-color: #ffffff;
+	background-color: white;
 	color: black;
-	margin-bottom: 8%;
-	text-align: center;
-	padding: 4% 0 5% 0;
-	box-sizing: border-box;
+	margin-bottom: 5%;
 }
 
-.services-content-box h3 {
-	font-family: "Roboto", sans-serif;
-	font-size: 2.5rem;
+.box-content {
+	margin: 10%;
+}
+
+.box-content h3 {
+	margin: 0;
+	font-size: 2em;
 	font-weight: 1000;
 }
 
-.services-content-box .box-content {
-	font-family: "Roboto Light", sans-serif;
-	margin: 0 10%;
+.box-content .content {
+	margin: 5% 0;
 	text-align: justify;
 }
-.services-content-box a {
-	display: block;
-	text-align: left;
-	margin: 3% 10%;
+
+.box-content .link {
 	color: blueviolet;
-	font-weight: bold;
+	font-weight: 800;
 }
 
-.services-content-box .box-price {
-	font-family: "Roboto", sans-serif;
-	text-align: left;
-	position: absolute;
-	bottom: 0;
-	display: flex;
-	align-items: center;
-	background-color: chartreuse;
-	height: 15%;
-	width: 100%;
-	box-sizing: border-box;
-	padding-left: 5%;
-	color: blue;
-	font-weight: 500;
+.box-price {
+	background-color: turquoise;
+	padding: 5% 0 5% 10%;
+	font-size: 2em;
+	font-weight: 1000;
 }
 
 @media screen and (max-width: 1024px) {
-	.services-flexbox-container {
-		flex-wrap: nowrap;
-		flex-direction: column;
-		align-items: center;
+	.services-content-box {
+		width: 100%;
 	}
 
-	.services-content-box {
-		width: 100vw;
-		height: auto;
-		position: relative;
-		background-color: #ffffff;
-		color: black;
-		margin-bottom: 8%;
+	.services-grid-container {
+		flex-direction: column;
+		gap: 20%;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+
+	.box-content h3 {
+		font-size: 3em;
 		text-align: center;
-		padding: 4% 0 5% 0;
-		box-sizing: border-box;
 	}
 }
